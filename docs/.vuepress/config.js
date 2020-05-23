@@ -8,6 +8,7 @@ module.exports = {
   themeConfig: {
     nav: [
       { text: "主页", link: "/" },
+      { text: "项目源码", link: "https://github.com/galenjx/galenjx-ui" },
     ],
     sidebar: [
       {
@@ -25,6 +26,11 @@ module.exports = {
         collapsable: false,
         children: [
           "/components/button",
+          "/components/radio",
+          "/components/checkbox",
+          "/components/switch",
+          "/components/input",
+          "/components/form",
           "/components/dialog",
         ]
       }

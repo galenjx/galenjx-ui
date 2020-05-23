@@ -40,7 +40,7 @@ export default {
       }
     },
     isGroup () {
-      // 用于判断radio是否被radioGroup所包裹
+      // 用于判断radio是否被radioGroup所包裹,转成Boolean值
       return !!this.RadioGroup
     }
   },
